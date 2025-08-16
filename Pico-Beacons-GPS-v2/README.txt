@@ -1,0 +1,1 @@
+This code is for the `PCB version` of `Amplified-WSPR-Beacon` project.

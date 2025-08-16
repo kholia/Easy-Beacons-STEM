@@ -1,0 +1,21 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(7.0.0-rc2-19-gbcc1e28bab)*%
+%TF.CreationDate,2023-01-26T23:12:18-08:00*%
+%TF.ProjectId,Amplified-WSPR-Beacon-v3,416d706c-6966-4696-9564-2d575350522d,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (7.0.0-rc2-19-gbcc1e28bab)) date 2023-01-26 23:12:18*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,1.350000X4.200000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J1*%
+X161454999Y-134039999D03*
+X167104999Y-134039999D03*
+%TD*%
+M02*

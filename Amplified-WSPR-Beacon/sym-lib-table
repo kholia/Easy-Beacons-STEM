@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "Control-Board-rescue")(type "Legacy")(uri "${KIPRJMOD}/Control-Board-rescue.lib")(options "")(descr ""))
+  (lib (name "GPS-Module")(type "KiCad")(uri "${KIPRJMOD}/libraries/GPS-Module.kicad_sym")(options "")(descr ""))
+  (lib (name "pico")(type "KiCad")(uri "${KIPRJMOD}/libraries/pico.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74HC04N")(type "Legacy")(uri "${KIPRJMOD}/SN74HC04N.lib")(options "")(descr ""))
+  (lib (name "gps-module")(type "KiCad")(uri "${KIPRJMOD}/libraries/gps-module.kicad_sym")(options "")(descr ""))
+  (lib (name "gps-module-final")(type "KiCad")(uri "${KIPRJMOD}/libraries/gps-module-final.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "pico_fixed")(type "KiCad")(uri "${KIPRJMOD}/libraries/pico_fixed.kicad_sym")(options "")(descr ""))
+)

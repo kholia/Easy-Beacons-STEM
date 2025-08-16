@@ -1,0 +1,52 @@
+Source:,Easy-Beacons-STEM/Amplified-WSPR-Beacon-v2/Amplified-WSPR-Beacon-v2.kicad_sch,,,,,,,
+Date:,Mon 05 Dec 2022 11:29:17 AM IST,,,,,,,
+Tool:,Eeschema 6.0.9-8da3e8f707~117~ubuntu22.04.1,,,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,,,
+Component Count:,21,,,,,,,
+,,,,,,,,
+Individual Components:,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Populate,URL
+,,ANTENNA1,Screw_Terminal_01x02,Connector:Screw_Terminal_01x02,TerminalBlock:TerminalBlock_bornier-2_P5.08mm,~,no,https://www.digikey.com/en/products/detail/weidm%C3%BCller/1760510000/459739
+,,C1,100nF,Device:C,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,~,no,https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TL2/286538
+,,C2,220p,Device:C_Small,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,~,yes,https://www.digikey.in/en/products/detail/vishay-beyschlag-draloric-bc-components/K221J15C0GF5TL2/286471
+,,C3,220p,Device:C_Small,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,~,yes,https://www.digikey.in/en/products/detail/vishay-beyschlag-draloric-bc-components/K221J15C0GF5TL2/286471
+,,C7,100nF,Device:C_Small,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,~,no,https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TL2/286538
+,,C8,100uF/16V,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D4.0mm_P2.00mm,~,,https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106
+,,D1,LED,Device:LED,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,,
+,,H1,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~,no,N/A
+,,H2,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~,no,N/A
+,,H3,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~,no,N/A
+,,H4,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~,no,N/A
+,,L1,FT37-43 Bifilar,Device:L_Ferrite_Coupled,footprints:FT50-43 Transformer,~,no,https://kitsandparts.com/
+,,L2,"260nH (T50-2, ~8 turns)",Device:L,footprints:FT37-INDUCTOR,https://toroids.info/T50-2.php,no,https://kitsandparts.com/
+,,R1,2.2k,Device:R_Small,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical,~,yes,https://www.digikey.com/en/products/detail/yageo/RT1206FRE072K2L/1083103
+,,R2,470,Device:R_Small,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical,~,,
+,,RTC1,RTC_DS3231_Inverted,rtc_ds3231_inverted:RTC_DS3231_Inverted,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal,,no,https://robu.in/product/1x40-berg-strip-right-angle-female-connector-5pcs/
+,,TP1,TestPoint,Connector:TestPoint,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,~,no,https://robu.in/product/1x40-berg-strip-male-connector/
+,,TP2,TestPoint,Connector:TestPoint,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,~,no,https://robu.in/product/1x40-berg-strip-male-connector/
+,,U1,Pico,pico_fixed:Pico,footprints:RPi_Pico_SMD_TH,,no,https://www.digikey.com/en/products/detail/raspberry-pi/SC0918/16608263
+,,U2,SI5351-Module-VFO,Control-Board-rescue:SI5351Module_2-VFO-SDR_SSB-rescue-Hack-v1-rescue,footprints:SI5351 Module,,no,https://www.adafruit.com/product/2045
+,,U3,74ACT244,74xx:74LS244,Package_DIP:DIP-20_W7.62mm_LongPads,https://www.ti.com/product/SN74ACT244,no,https://www.digikey.com/en/products/detail/texas-instruments/SN74ACT244N/375910
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Collated Components:,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Populate,URL
+1,1,ANTENNA1,Screw_Terminal_01x02,Connector:Screw_Terminal_01x02,TerminalBlock:TerminalBlock_bornier-2_P5.08mm,~,no,https://www.digikey.com/en/products/detail/weidm%C3%BCller/1760510000/459739
+2,1,C1,100nF,Device:C,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,~,no,https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TL2/286538
+3,2,"C2, C3",220p,Device:C_Small,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,~,yes,https://www.digikey.in/en/products/detail/vishay-beyschlag-draloric-bc-components/K221J15C0GF5TL2/286471
+4,1,C7,100nF,Device:C_Small,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,~,no,https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TL2/286538
+5,1,C8,100uF/16V,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D4.0mm_P2.00mm,~,,https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106
+6,1,D1,LED,Device:LED,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,,
+7,4,"H1, H2, H3, H4",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~,no,N/A
+8,1,L1,FT37-43 Bifilar,Device:L_Ferrite_Coupled,footprints:FT50-43 Transformer,~,no,https://kitsandparts.com/
+9,1,L2,"260nH (T50-2, ~8 turns)",Device:L,footprints:FT37-INDUCTOR,https://toroids.info/T50-2.php,no,https://kitsandparts.com/
+10,1,R1,2.2k,Device:R_Small,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical,~,yes,https://www.digikey.com/en/products/detail/yageo/RT1206FRE072K2L/1083103
+11,1,R2,470,Device:R_Small,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical,~,,
+12,1,RTC1,RTC_DS3231_Inverted,rtc_ds3231_inverted:RTC_DS3231_Inverted,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal,,no,https://robu.in/product/1x40-berg-strip-right-angle-female-connector-5pcs/
+13,2,"TP1, TP2",TestPoint,Connector:TestPoint,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,~,no,https://robu.in/product/1x40-berg-strip-male-connector/
+14,1,U1,Pico,pico_fixed:Pico,footprints:RPi_Pico_SMD_TH,,no,https://www.digikey.com/en/products/detail/raspberry-pi/SC0918/16608263
+15,1,U2,SI5351-Module-VFO,Control-Board-rescue:SI5351Module_2-VFO-SDR_SSB-rescue-Hack-v1-rescue,footprints:SI5351 Module,,no,https://www.adafruit.com/product/2045
+16,1,U3,74ACT244,74xx:74LS244,Package_DIP:DIP-20_W7.62mm_LongPads,https://www.ti.com/product/SN74ACT244,no,https://www.digikey.com/en/products/detail/texas-instruments/SN74ACT244N/375910
